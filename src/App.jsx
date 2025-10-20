@@ -109,6 +109,11 @@ const App = () => {
       {users.map((e, idx) => {
         return (
           <Card
+
+
+
+
+          
             key={idx}
             availability={e.availability}
             pay={e.pay}
@@ -119,6 +124,11 @@ const App = () => {
             skills={e.skills}
             bio={e.bio}
           />
+
+
+
+
+          
         );
       })}
     </div>
